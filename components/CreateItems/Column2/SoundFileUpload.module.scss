@@ -1,0 +1,9 @@
+#container {
+  background-color: #7192fe;
+  padding: 20px;
+  flex: 1 0 calc(40% - 40px);
+
+  > input {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,16 @@
+#container {
+  flex: 1 0 calc(20% - 40px);
+  background-color: #fffec3;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  > label {
+    margin-right: 20px;
+  }
+
+  > textarea {
+    flex-grow: 1;
+    // width: 100px;
+  }
+}

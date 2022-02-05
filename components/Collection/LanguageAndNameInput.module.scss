@@ -1,0 +1,30 @@
+#container {
+  flex: 1 0 50%;
+  background-color: #32abff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:first-child {
+      margin-bottom: 20px;
+    }
+
+    > label {
+      flex-basis: 35%;
+      text-align: center;
+    }
+
+    > input, select {
+      padding: 10px;
+      border-radius: 5px;
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#container {
+  flex: 1 0 calc(40% - 40px);
+  background-color: #fffec3;
+  padding: 20px;
+
+  > textarea {
+    margin-top: 20px;
+    width: calc(100% - 10px);
+  }
+}

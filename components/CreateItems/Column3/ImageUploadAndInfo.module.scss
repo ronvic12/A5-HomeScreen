@@ -1,0 +1,26 @@
+#container {
+  flex: 1 0 40%;
+  display: flex;
+  // justify-content: space-around;
+}
+
+#imageSelect {
+  flex: 1 0 calc(50% - 40px);
+  padding: 20px;
+  background-color: #ca94fe;
+
+  > input {
+    margin-top: 20px;
+  }
+}
+
+#imageInfo {
+  flex: 1 0 calc(50% - 40px);
+  padding: 20px;
+  background-color: #fffec3;
+
+  > textarea {
+    width: calc(100% - 10px);
+    margin-top: 20px;
+  }
+}
