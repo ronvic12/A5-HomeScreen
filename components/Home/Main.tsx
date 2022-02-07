@@ -7,6 +7,8 @@ const Main = () => {
     <div id={styles.container}>
       <h1>eyeVocab</h1>
       <Link href="/creator_view"><a><button>Creator View</button></a></Link>
+     <br></br>
+     <Link href="/instructor_view"><a><button>Instructor View</button></a></Link>
     </div>
   )
 }
