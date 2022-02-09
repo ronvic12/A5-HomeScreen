@@ -3,9 +3,10 @@ import Link from 'next/link'
 import { useState } from 'react';
 import { ICourse , IVocab } from 'interfaces'
 import { useRouter } from 'next/router';
+import { IInstructor } from '../../../server/src/interfaces/accounts/instructor';
 
 interface Props {
-  collections: ICourse[]
+  collections: IInstructor[]
 }
 
 const Item = (item: IVocab) => {
