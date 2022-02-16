@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #44CCFF;
+    height: 100vh;
+  
+    > h1 {
+      font-size: 5rem;
+      height: 100vh;
+    }
+  }
+
+.input{
+  background-color: #44CCFF;
+  height: 200vh;
+
+}
+.button{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.emailinput{
+  background-color:#FFF;
+    height:2em;
+    width: 250px;
+}
