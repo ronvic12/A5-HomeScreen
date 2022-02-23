@@ -64,7 +64,9 @@ export async function init() {
         admin_callbacks()
         vocab_callbacks()
         collection_callbacks()
+        user_callbacks()
 
+        
         app.post("/insert_cloud_item", upload.fields(fields), async (req, res) => {
             try {
                 let uuidName: string = req.body.value // name of vocab_item
@@ -127,6 +129,13 @@ async function setup_rdb(dbAddress: string, dbPort: number) {
             console.log("connected to rethinkDB!")
             app.emit("ready")
         }
+    })
+}
+
+function user_callbacks() {
+    app.get('/verifyUser', async (req, res) => {
+        // TODO verify user data
+        res.send(true)
     })
 }
 

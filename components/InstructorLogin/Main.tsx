@@ -8,14 +8,17 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
 }
 
 
-function myFunction() {
-    let x = document.getElementById("myInput");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
+// function myFunction() {
+//   var x = (<HTMLInputElement>document.getElementById("*passwordbox-id*"));
+//   // if (x.type === "password") {
+//   //   x.type = "text";
+//   // } else {
+//   //   x.type = "password";
+//   // }
+// }
+
+
+
 
 const Main:FC<InputProps> = ({name,label,...rest}) => 
 { const router = useRouter()
@@ -27,13 +30,10 @@ const Main:FC<InputProps> = ({name,label,...rest}) =>
       <label htmlFor={name}> Email:{label}</label>
       <input id={name} {...rest} className={styles.emailinput}></input>
       <br></br>
+      <label htmlFor={name}>Password:{label}</label>
+    <input id={name} {...rest} className={styles.passwordinput}></input>
       <br></br>
-      <br></br>
-      <br></br>
-      <label htmlFor={name}>{label}</label>
-      Password:<input id={name} {...rest} className={styles.emailinput}></input>
-      <br></br>
-      Show Password <input type="checkbox" onClick="myFunction()"></input>
+      Show Password <input type="checkbox"></input>
       <br></br>
       <br></br>
       <br></br>
