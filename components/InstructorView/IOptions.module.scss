@@ -6,6 +6,7 @@
     background-color: #33AAFF;
     width:175vh;
     max-width: 400vh;
+    margin-bottom: 100px;
     padding: 40px;
     height: 500vh;
   
@@ -23,6 +24,7 @@
     padding: 10px;
     // overflow-y: scroll;
     max-height: 1000px;
+
   
   
     > h2 {
@@ -80,6 +82,16 @@
     margin-inline-end: 100px;
   }
 
+   .font2{
+      position: relative;
+      bottom: 10%;
+    font-size: 2.50rem;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 80px;
+    margin-inline-end: 100px;
+  }
+
   #box3{
     position: relative;
     left: 50%;
@@ -101,5 +113,63 @@
       margin: 15px 0;
     }
   }
-
+  .coursesBox {
+      border:15px solid #FFB6C1;
+      height: 500px;
+      background-color: #FFB6C1;
+      overflow:auto;
+      margin-top:10px;
+    }
   
+  .coursesContent {
+    border:15px solid  #00CCFF;
+    height: 200px;
+    background-color: #00CCFF;
+    margin-bottom: 50px;
+    margin-right: 15px;
+    
+  }
+
+  .courseEdit {
+    background: #99EEFF; 
+    height: 50px;
+    margin-top: 60px;
+    font-size: 20px; 
+    padding: 10px; 
+    border: 1px solid lightgray; 
+    margin-right:400px;
+  }
+
+  .courseCollection {
+    border:15px solid #00008B;
+    height: 200px;
+    overflow:auto;
+    margin-left: 220px;
+    margin-right: 35px;
+    margin-top:-29%;
+    width: 386px;
+  }
+  
+
+   #messageBox {
+    border:15px solid #BFFF00;
+    background-color: #BFFF00;
+    height: 210px;
+    margin-top:-46%;
+
+  }
+
+  .showCourses {
+    border:15px #cbfff5;
+    background-color:#cbfff5;
+    height: 50px;
+    margin-left: 180px;
+    margin-top:-8%;
+    font-family: sans-serif;
+    
+  }
+
+  #btn {
+    margin-right: 4px;
+    margin-left: 4px;
+  }

@@ -1,0 +1,23 @@
+.box{
+    position:relative;
+    top:5vh;
+    right:29vh;
+    left: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: 
+    background-color: #ffffff;
+    width: 15vh;
+    text-decoration: none;
+
+    > h2 {
+      font-size: 2.50rem;
+      margin: 15px 0;
+    }
+    > a {
+        text-decoration: none;
+      }
+}
+.a{
+    text-decoration: none;
+}
