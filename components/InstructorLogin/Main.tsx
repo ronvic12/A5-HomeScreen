@@ -38,7 +38,7 @@ const Main:FC<InputProps> = ({name,label,...rest}) =>
       <br></br>
       <br></br>
       <br></br>
-      <button type="button" className ={styles.button}onClick=myFunction{() => router.push('/instructor_view')}>
+      <button type="button" className ={styles.button}onClick={() => router.push('/instructor_view')}>
       Submit
     </button>
 

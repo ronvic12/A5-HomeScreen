@@ -7,8 +7,7 @@ const Menu = () => {
     return (
         <div>
             <section>
-               
-                <Link href="/"><a className={styles.a}><button className={styles.box}>Create New Course</button></a></Link>
+                <Link href="/create_new_course"><a className={styles.a}><button className={styles.box}>Create New Course</button></a></Link>
             </section>
             <br></br>
             <section>
