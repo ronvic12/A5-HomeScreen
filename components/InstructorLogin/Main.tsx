@@ -2,6 +2,10 @@ import styles from './Main.module.scss'
 import { useRouter } from 'next/router'
 import React,{FC, InputHTMLAttributes} from 'react';
 
+import VerifyUser from 'pages/instructor_login/verification/index';
+
+
+
 interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
     name:string;
     label:string;
@@ -38,7 +42,8 @@ const Main:FC<InputProps> = ({name,label,...rest}) =>
       <br></br>
       <br></br>
       <br></br>
-      <button type="button" className ={styles.button}onClick={() => router.push('/instructor_view')}>
+      <VerifyUser/>
+      <button type="button" className ={styles.button}onClick={() => {router.push('/instructor_view')}}>
       Submit
     </button>
 
